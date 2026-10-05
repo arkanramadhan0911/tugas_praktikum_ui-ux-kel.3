@@ -1,0 +1,321 @@
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kelompok 3_UI/UX Pembuatan WEB</title>
+        
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+            }
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+            h2 {
+                color: #333;
+                text-align: center; 
+            }
+
+            h3 {
+                color: #333;
+                margin-top: 0;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                color: #000;
+            }
+
+            img {
+                display: block;
+                margin: 20px auto;
+                background-color: #808080;
+            }
+
+            .intro{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 16px;
+                padding: 16px; 
+                margin: 20px 0;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                background-color: #f9f9f9
+            }
+
+            .intro-icon {
+                flex-shrink: 0;
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 30px;
+                background-color: #e0e0e0;
+                border-radius: 50%;
+            }
+
+            .intro-text {
+                flex: 1;
+            }
+            
+            .intro-text h3 {
+                margin: 0 0 3px;
+                color: #333;
+                text-align: center;
+            }
+
+            .intro-text p {
+                margin: 0;
+                color: #555;
+                text-align: center;
+                line-height: 1.5;
+                font-style: bold;
+            }
+            
+            footer p {
+                text-align: center;
+                color: #fff;
+            }
+
+            .members {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 16px;
+                margin-top: 20px;
+            }
+
+            .card img {
+                margin: 20px auto;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 8px;
+                margin-bottom: 12px;
+                background-color: #808080;
+                margin: 0 auto 12px;
+            }
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                width: calc((100% - 32px) / 3);
+                box-sizing: border-box;
+                border: 1px solid #333;
+                border-radius: 8px;
+                padding: 16px;
+                background-color: #f9f9f9;
+                text-align: center;
+            }
+
+            .card h3 {
+                margin: 0 0 8px;
+            }
+
+            .role {
+                align-self: center;
+                padding: 3px 12px;
+                margin-bottom: 12px;
+                border-radius: 999px;
+                background-color: #e3edfc;
+                color: #0b57d0;
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            .card ul {
+                margin: 0 0 12px;
+                padding: 8px 0 0;
+                text-align: center;
+            }
+
+            @media (max-width: 500px) {
+                .card {
+                    width: 100%;
+                }
+            }
+            
+            .motto {
+                margin-top: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 10px;
+                border-top: 1px solid #ccc;
+                border-radius: 8px;
+                background-color: #fff
+            }
+
+            .motto-icon {
+                flex-shrink: 0;
+                font-size: 20px;
+            }
+
+            .motto p {
+                margin: 0;
+                text-align: left;
+                font-size: 14px;
+                font-style: italic;
+                color: #555;
+            }
+
+            footer {
+                margin-top: 30px;
+                padding: 20px;
+                background-color: #0b57d0;
+                text-align: center;
+            }
+
+            footer p {
+                margin: 4px 0;
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+            }
+            
+            li {
+                list-style-type: none;
+                padding: 5px 0;
+                text-align: center;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+
+        <header>
+        <h1>STT Terpadu Nurul Fikri</h1>
+        <p>Mahasiswa prodi Teknik Informatika</p>
+        </header>
+
+        <main class ="container">
+            <section>
+                <img src="assets\img\logo_sttnf.jpg" alt="kelompok 3" class="logo sttnf" width="200" height="150">
+            </section>
+
+            <section class="container"> 
+                <h1>Kelompok 3</h1>
+                <h3>Desain UI/UX Pemrograman WEB</h3>
+                
+            <div class="intro">
+                <div class="intro-icon">👥</div>
+                <div class="intro-text">
+                <h3>Intro</h3>
+                <p>Kelompok 3 terdiri dari 5 anggota yang memiliki minat berbeda-beda dalam bidang teknologi.</p>
+            </div>
+            </div>
+            <div class="members">
+
+                <div class="card">
+                    <img src="assets\img\Arga Uzumaki Dwiyan.jpeg" class="foto kelompok" width="200">
+                    <h3>Arga Uzumaki Dwiyan</h3>
+                    <span class="role">Anggota</span>
+                    <ul>
+                        <li><strong>NIM:</strong> 0110226086</li>
+                        <li><strong>Prodi:</strong> Teknik Informatika</li>
+                        <li><strong>Hobi:</strong> Olahraga</li>
+                        <li><strong>Kelas:</strong> TI-02</li>
+                        <li><strong>Peminatan:</strong> Artificial Intelligence</li>
+                <div class="motto">
+                        <span class="motto-icon">💬</span>
+                        <p>Menjadi lebih baik dari hari sebelumnya</p>
+                </div>
+                    </ul>
+                    </div>
+
+                <div class="card">
+                    <img src="assets\img\arkan zahran ramadhan.jpeg" class="foto kelompok" width="200">
+                    <h3>Arkan Zahran Ramadhan</h3>
+                    <span class="role">Anggota</span>
+                    <ul>
+                        <li><strong>NIM:</strong> 0110226139</li>
+                        <li><strong>Prodi:</strong> Teknik Informatika</li>
+                        <li><strong>Hobi:</strong> Olahraga & Membaca</li>
+                        <li><strong>Kelas:</strong> TI-02</li>
+                        <li><strong>Peminatan:</strong> Cyber Security</li>
+                    </ul>
+                <div class="motto">
+                        <span class="motto-icon">💬</span>
+                        <p>Teruslah berbuat baik, walau tidak selalu diperlakukan dengan baik</p>
+                </div>
+                    </div>
+
+                <div class="card">
+                    <img src="assets\img\Asyifa Fauziah.jpeg" class="foto kelompok" width="200">
+                    <h3>Asyifa Fauziah</h3>
+                    <span class="role">Anggota</span>
+                    <ul>
+                        <li><strong>NIM:</strong> 0110226132</li>
+                        <li><strong>Prodi:</strong> Teknik Informatika</li>
+                        <li><strong>Hobi:</strong> Makan</li>
+                        <li><strong>Kelas:</strong> TI-02</li>
+                        <li><strong>Peminatan:</strong> Cyber Security</li>
+                    </ul>
+                <div class="motto">
+                        <span class="motto-icon">💬</span>
+                        <p>A women with a brain - Wanita matang yang ceria dan berkarakter</p>
+                </div>
+                </div>
+
+                    <div class="card">
+                        <img src="assets\img\Aufa Dzaky Zuhdi Wicaksono.jpeg" class="foto kelompok" width="200">
+                        <h3>Aufa Dzaky Zuhdi Wicaksono</h3>
+                        <span class="role">Anggota</span>
+                        <ul>
+                            <li><strong>NIM:</strong> 0110226021</li>
+                            <li><strong>Prodi:</strong> Teknik Informatika</li>
+                            <li><strong>Hobi:</strong> Renang</li>
+                            <li><strong>Kelas:</strong> TI-02</li>
+                            <li><strong>Peminatan:</strong> Cyber Security</li>
+                        </ul>
+                    <div class="motto">
+                        <span class="motto-icon">💬</span>
+                        <p></p>
+                    </div>
+                        </div>
+
+                    <div class="card">
+                        <img src="assets\img\Christian Soya Niron.jpeg" class="foto kelompok" width="200">
+                        <h3>Christian Soya Niron</h3>
+                        <span class="role">Anggota</span>
+                        <ul>
+                            <li><strong>NIM:</strong> 0110226118</li>
+                            <li><strong>Prodi:</strong> Teknik Informatika</li>
+                            <li><strong>Hobi:</strong> Bermain bulu tangkis</li>
+                            <li><strong>Kelas:</strong> TI-02</li>
+                            <li><strong>Peminatan:</strong> Cyber Security</li>
+                        </ul>
+                    <div class="motto">
+                        <span class="motto-icon">💬</span>
+                        <p>Inovasi bukan tentang teknologi, tapi tentang solusi yang diciptakannya.</p>
+                    </div>
+                </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Kelompok 3. All rights reserved.</p>
+            <p>STT Terpadu Nurul Fikri.</p>
+        </footer>
+    </body>
+    </html>
