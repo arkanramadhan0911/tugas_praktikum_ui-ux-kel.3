@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+</head>
+<body>
+
+    <header align="center">
+    <h1>Black goese bistro | Pizza-on-Demand</h1>
+    <p>
+        This website made for easy order pizza
+    </p>
+    <hr width="100%">
+    </header>
+
+
+    <form action="hasil.html" 
+    method="post>"
+        <fieldset>
+            <legend>Your information</legend>
+            <p>
+                <label for="name">Your name: </label>
+                <input type="text" id name="name" name="name">
+            </p>
+
+            <p>
+                <label for="address">Address: </label>
+                <input type="text" id address="address" name="address">
+            </p>
+
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" id email="email" name="email">
+            </p>
+
+            <p>
+                <labelf for="phone">Phone: </label>
+                <input type="tel" id phone="phone" name="phone">
+            </p>
+
+        <p>
+            <label for="intruction">Delivery Instruction: </label><br>
+            <textarea
+
+                id="instruction"
+                name="instruction delivery"
+                maxlength="400"
+                placeholder="no more than 400 characters.">
+            </textarea>
+        </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Design your dream pizza: </legend>
+            <P>Pizza Specs</P>
+            <p>Choose 1: </p>
+
+            <P>
+                <input type="radio" id="classic"name="crust" value="classic white" required>
+                <label for="classic">Multigrain</label><br>
+
+                <input type="radio" id="classic"name="crust" value="cheese" required>
+                <label for="classic">Cheese</label><br>
+
+                <input type="radio" id="classic"name="crust" value="gluten" required>
+                <label for="classic">Gluten</label><br>
+            </P>
+
+            <p>Topping</p>
+            <p>
+                <input type="checkbox" id="redsauce"name="toppings" value="red sauce" checked>
+                <label for="redsauce">Red Sauce</label><br>
+
+                <input type="checkbox" id="cheese"name="toppings" value="cheese" checked>
+                <label for="cheese">Cheese</label><br>
+
+                <input type="checkbox" id="multigrainn"name="toppings" value="multigrain" checked>
+                <label for="gluten">Gluten</label><br>
+
+            </p>
+
+            <p>
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity"
+                name="quantity" min="1" max="10">
+            </p>
+
+        </fieldset>
+
+        <p>
+            
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </p>
+
+
+    </form>
+</body>
+</html>
