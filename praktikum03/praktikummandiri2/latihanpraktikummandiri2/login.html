@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pemesanan & Hasil Pembelian</title>
+</head>
+<body>
+
+    <p align="center" style="font-size: 25px;">
+        Dapur manis cake & Bakery!
+    </p>
+    <h3 align="center">Costum & Freshly baked every day</h3>
+
+    <p align="center">
+        <a href="#form-section">Home</a> |
+        <a href="#form-section">Generate Link</a> |
+        <a href="#hasil-section">Transaction History</a> |
+        <a href="#">Policy</a> |
+        <a href="#">Logout</a>
+    </p>
+
+    <hr><br>
+
+    <section id="form-section">
+        <h2>Categories cake</h2>
+
+                    <td valign="top">
+                        <p>
+                            <label><strong>Categories :</strong></label><br>
+                            <select id="categories" name="categories" required>
+                                <option value="categories">-- Choose your cake --</option>
+                                <option value="categories">Birthday cake / tart</option>
+                                <option value="categories">Cupcake & Muffin</value>
+                                <option value="categories">Pastry & Croissant</option>
+                                <option value="categories">Costum wedding cake</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label><strong>Fillings :</strong></label><br>
+                            <select id="fillings" name="fillings" required>
+                                <option value="fillings">-- Choose your filings --</option><br>
+                                <option value="fillings">Chocolate</option>
+                                <option value="fillings">Vanilla </option>
+                                <option value="fillings">Red Velvet</option>
+                                <option value="fillings">Strawberry</option>
+                            </select>
+                        </p>
+
+
+                        <p>
+                            <label><strong>Description :</strong></label><br>
+                            <textarea type="description" rows="5" cols="44" maxlength="400"></textarea>
+                        </p>
+
+                        <p>
+                            <strong>Phone number :</strong></input><br>
+                            <input text="number">
+                        </p>
+
+                        <p>
+                            <label><strong>Method payment Bank :</strong></label><br>
+                            <select name="bank">
+                                <option value="bank">-- Choose your bank --</option>
+                                <option value="HSBC">HSBC</option>
+                                <option value="BCA">BCA</option>
+                                <option value="Mandiri">Mandiri</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label><strong>Full Name :</strong></label><br>
+                            <input type="text" name="account_holder" value="Name Here" size="45" required>
+                        </p>
+
+                        <p>
+                            <label><strong>Transaction :</strong></label><br>
+                            <input type="number" name="transaction" value="1" min="1" max="10" style="width: 50px;">
+                            <br>
+                            <small><em>* if the transaction is for 3 person, choose 3 from the drop-down list</em></small>
+                        </p>
+
+                        <p>
+                            <input type="checkbox" id="mobile" name="notif_mobile" checked>
+                            <label for="mobile">Send to Mobile Phone</label><br>
+                            
+                            <input type="checkbox" id="email" name="notif_email" checked>
+                            <label for="email">Send to Email</label>
+                        </p>
+
+                        <p>
+                            <label><strong>Send to Mobile Phone :</strong></label><br>
+                            <input type="text" name="phone_target" value="1234567890, 1234567891" size="45">
+                        </p>
+
+                        <p>
+                            <label><strong>Send to Email :</strong></label><br>
+                            <input type="text" name="email_target" value="mfmm2g13@soton.ac.uk, fys_06@yahoo.com" size="45">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <p align="center">
+                <form action="hasil_login.html" method="GET">
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </section>
+
+    </body>
+    </html>
+
