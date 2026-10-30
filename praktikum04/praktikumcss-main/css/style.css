@@ -1,0 +1,210 @@
+header {
+    background-color: #d2b48c;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 8px;
+}
+body {
+    background-color: #ffffe0;
+    font-family: Arial, sans-serif;
+}
+#header {
+    background-color: #d2b48c;
+    width: 99%;
+    margin: 20px auto 0 auto;
+    margin-top: 0;
+    padding: 25px 20px;
+    text-align: center;
+    display: block;
+}
+#header h1 {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#header blockquote {
+    background-color: #ffeb00;
+    border: 1px solid #000;
+    max-width: 850px;
+    margin: 0 auto; 
+    padding: 10px 15px;
+    font-size: 10px;
+    color: #000;
+    line-height: 1.4;
+    text-align: center;
+    display: block;
+}
+#soekarno {
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+ul li a{
+    color: #00008b;
+    font-weight: bold;
+    font-size: 18px;
+}
+.gambar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 20px 0;
+}
+.gambar img:first-child{
+    width: 300px;
+    height: auto;
+}
+.gambar img:last-child{
+    width: 250px;
+    height: auto;
+}
+.isi{
+    padding: 0 15px;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.isi > p:first-of-type::first-letter{
+    font-size: 2.2em;
+    color:#00008b;
+    font-weight: bold;
+    float: left;
+    line-height: 0.8;
+    padding-right: 4px;
+    padding-top: 2px;
+}
+#profil{
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+#proile h3{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+#profil ul{
+    margin: 5px 0 15px 0;
+    display: block;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 15px;
+}
+#profil li{
+    margin-bottom: 6px;
+    display: list-item;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.4;
+}
+#beternak{
+    padding: 0 15px;
+    margin-top: 0px;
+}
+#beternak h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#beternak ol{
+    padding-left: 20px;
+}
+#beternak ol li{
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+#beternak h4{
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+#beternak p{
+    margin-top: 0;
+}
+.koleksi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.koleksi img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    padding: 3px;
+    background-color: #fff;
+}
+.promo{
+    text-align: center;
+    margin-top: 25px;
+    padding: 0 15px;
+}
+.promo h2{
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 16px;
+    color: #000;
+}
+.promo h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.promo del{
+    color: red;
+}
+.promo strong{
+    color: red;
+    font-size: 16px;
+}
+#Wa{
+    color: red;
+    font-weight: bold;
+}
+.promo  h4{
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.promo ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.promo ol li{
+    display: inline-block;
+}
+.promo ol li a{
+    display: inline-block;
+    color: #333;
+    background-color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.promo ol li a:hover {
+    background-color: #555;
+}
