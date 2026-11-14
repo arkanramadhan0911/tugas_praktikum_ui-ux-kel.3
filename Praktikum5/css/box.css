@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;  
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 22%;
+    height: 90vh;
+    margin: 10px;
+    border: 1px solid;
+}
+
+.box1 {
+    background-color: yellow;
+}
+.box2 {
+    background-color: orangered;
+}
+.box3 {
+    background-color: greenyellow;
+}
+.box4 {
+    background-color: aquamarine;
+}
