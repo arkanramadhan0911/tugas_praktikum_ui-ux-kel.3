@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><title>Praktikum Javascript</title></head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Praktikum Basic Javascript</h2>
+    <p>Lihat hasil melalui Console (F12)</p>
+
+    <script>
+        const nama = "Arkan";
+        let umur = 19;
+        let nilai = 90;
+        let aktif = true;
+
+        console.log("Nama: ", nama);
+        console.log("Umur: ", umur);
+        console.log("Nilai: ", nilai);
+        console.log("Status aktif: ", aktif);
+        console.log("Tipe nilai: ", typeof nilai);
+
+        const tugas = 80;
+        const uts = 75;
+        const uas = 50;
+        const akhir = tugas * 0.30 + uts * 0.30 + uas * 0.40;
+
+        console.log("Nilai akhir: ", akhir);
+        console.log("Lulus: ", akhir >= 60);
+
+        console.log("Tambah: ", 10 + 3);
+        console.log("Kurang: ", 10 - 3);
+        console.log("Kali: ", 10 * 3);
+        console.log("Bagi: ", 10 / 3);
+        console.log("Sisa bagi (Modulus): ", 10 % 3);
+
+       const nilai1 = 45;
+        let kategori;
+        if (nilai1 >= 85) {
+            kategori = "A";
+        } else if (nilai1 >= 70) {
+            kategori = "B";
+        } else if (nilai1 >= 60) {
+            kategori = "C";
+        }else {
+            kategori = "D";
+        }
+        
+        console.log("Nilai: ", nilai1);
+        console.log("Kategori: ", kategori);
+
+        function hitungDiskon(harga, persen) {
+            return harga - (harga * persen / 100);
+        }
+
+        for (let i = 1; i <= 3; i++) {
+           const harga = i * 10000;
+           const bayar = hitungDiskon(harga, 10);
+           console.log("Barang", i, "Harga: ", harga, "Bayar", bayar);
+        }
+    </script>
+</body>
+</html>
